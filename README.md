@@ -1,6 +1,6 @@
 # Games Analysis - Project description
 
-You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources. You need to identify patterns that determine whether a game succeeds or not. This will allow you to spot potential big winners and plan advertising campaigns.
+You work for the online store Ice, which sells video games all over the world. User and expert reviews, genres, platforms (e.g. Xbox or PlayStation), and historical data on game sales are available from open sources in the file `games.csv`. You need to identify patterns that determine whether a game succeeds or not. This will allow you to spot potential big winners and plan advertising campaigns.
 
 In front of you is data going back to 2016. Let’s imagine that it’s December 2016 and you’re planning a campaign for 2017.
 
@@ -8,11 +8,11 @@ In front of you is data going back to 2016. Let’s imagine that it’s December
 
 The dataset contains the abbreviation ESRB. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
 
-Instructions for completing the project
+## Instructions for completing the project
 
-## Step 1. Open the data file and study the general information
+### Step 1. Open the data file and study the general information
 
-## Step 2. Prepare the data
+### Step 2. Prepare the data
 
 - Replace the column names (make them lowercase).
 
@@ -29,11 +29,11 @@ Instructions for completing the project
 
   - Calculate the total sales (the sum of sales in all regions) for each game and put these values in a separate column.
 
-## Step 3. Analyze the data
+### Step 3. Analyze the data
 
 - Look at how many games were released in different years. Is the data for every period significant?
 
-- Look at how sales varied from platform to platform. Choose the platforms with the greatest total sales and build a distribution based on data for each year. Find platforms that used to be popular but now have zero sales. How long does it generally take for new platforms to appear and old ones to fade?
+- Look at how sales varied from platform to platform. Choose the platforms with the greatest total sales and build a distribution based on data for each year. Find platforms that used to be popular but now have zero sales.
 
 - Determine what period you should take data for. To do so, look at your answers to the previous questions. The data should allow you to build a prognosis for 2017.
 
@@ -49,7 +49,7 @@ Instructions for completing the project
 
 - Take a look at the general distribution of games by genre. What can we say about the most profitable genres? Can you generalize about genres with high and low sales?
 
-## Step 4. Create a user profile for each region
+### Step 4. Create a user profile for each region
 
 For each region (NA, EU, JP), determine:
 
